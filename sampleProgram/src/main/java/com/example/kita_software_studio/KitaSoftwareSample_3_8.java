@@ -30,13 +30,13 @@ public class KitaSoftwareSample_3_8 {
 		String result = null;
 
 		if (score1 >= 60 && score2 >= 60) {
-			result = "合格";
+			result = "合格1";
 
 		} else if ((score1 + score2) >= 130) {
-			result = "合格";
+			result = "合格2";
 
 		} else if ((score1 + score2) >= 100 && (score1 >= 90 || score2 >= 90)) {
-			result = "合格";
+			result = "合格3";
 
 		} else {
 			result = "不合格";
